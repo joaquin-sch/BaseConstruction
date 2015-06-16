@@ -1,0 +1,126 @@
+CONTRACT_TYPE
+{
+    name = MunBaseCrewRotation
+    title = Do a crew rotation to @/targetVessel1.
+    group = MunBase
+	description = Oh no, @/targetKerbal1 forgot his marriage aniversary so bring him back to Kerbin right now. Also @/targetKerbal2 is feeling homesick so bring him back too.
+    synopsis = Bring back to Kerbin @/targetKerbal1 and @/targetKerbal1 .
+    completedMessage = Uff @/targetKerbal1 would like to thank you. He get just in time.
+    minExpiry = 1
+    maxExpiry = 7
+    deadline = Random(500, 700)
+    cancellable = true
+    declinable = true
+	maxSimultaneous = 1
+    rewardScience = 0.0
+    rewardReputation = Random(1.0, 20.0)
+    rewardFunds = Random(40000, 60000.0)
+    failureReputation = Random(1, 10.0)
+    failureFunds = Random(1, 10000.0)
+    advanceFunds = Random(1, 10000.0)
+    weight = 5.0
+	DATA
+    {
+        type = Vessel
+        requiredValue = false
+        targetVessel1 = [ MunBase1 ].Random()
+    }
+	DATA
+	{
+		type = Kerbal
+		uniqueValue = true
+		targetKerbal1 = @targetVessel1.Crew().Random()
+	}
+	DATA
+	{
+		type = Kerbal
+		uniqueValue = true
+		targetKerbal2 = @targetVessel1.Crew().Random()
+	}
+    DATA
+	{
+        type = Location
+		vesselLocation = @targetVessel1.Location()	
+    }
+	PARAMETER
+    {
+        name = VisitWaypoint
+		type = VisitWaypoint
+		index = 0
+		distance = 100.0
+		title = Land near the MunBase 
+	}
+	PARAMETER
+    {
+        name = HasCrew
+		type = HasCrew
+		minCrew = 2
+		title = Take down to @targetVessel1 at least 2 kerbals.
+    }
+	PARAMETER
+    {
+        name = HasCrew
+		type = HasCrew
+		vessel = @targetVessel1
+		minCrew = @targetVessel1.CrewCount()
+		title = Leave on @targetVessel1 at least 2 kerbals.
+    }	
+	PARAMETER
+    {
+        name = RecoverKerbal
+		type = RecoverKerbal
+		kerbal = @/targetKerbal1
+		title = Bring back @/targetKerbal1
+    }	
+	PARAMETER
+    {
+        name = RecoverKerbal
+		type = RecoverKerbal
+		kerbal = @/targetKerbal2
+		title = Bring back @/targetKerbal2
+    }
+
+	 BEHAVIOUR
+    {
+        name = WaypointGenerator
+		type = WaypointGenerator
+		WAYPOINT
+        {    name = MunBase1
+		     targetBody = Mun
+			 icon = balloon
+			 altitude = 0.0
+			 latitude = @/vesselLocation.Latitude()
+			 longitude = @/vesselLocation.Longitude()
+        }
+    }	
+	REQUIREMENT
+    { 
+        name = CompleteContract
+		type = CompleteContract
+		contractType = MunBaseCreate
+		minCount = 1
+		cooldownDuration = 5d
+    }
+    REQUIREMENT
+    { 
+        name = CompleteContract
+		type = CompleteContract
+		contractType = MunBaseCrewRotation
+		minCount = 0
+		cooldownDuration = 5d
+    } 	
+	REQUIREMENT:NEEDS[TACLifeSupport|LifeSupport|IFILifeSupport]
+    { 
+        name = CompleteContract
+		type = CompleteContract
+		contractType = MunBaseMunBaseResupply
+		minCount = 1
+		cooldownDuration = 3d
+    } 
+	REQUIREMENT
+    {
+        name = BasePopulatedOver2
+        type = Expression
+        expression = (@/targetVessel1.CrewCount()>2)
+    }
+}
