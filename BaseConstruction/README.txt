@@ -10,7 +10,9 @@ Dev Forum Thread ----http://forum.kerbalspaceprogram.com/threads/124301-WIP-Cont
 Instalation:
 
 Download Contract Configurator  (Version after 1.3.2)---https://github.com/jrossignol/ContractConfigurator/releases
-Install it
+Install it.
+
+Unzip the CPBaseConstruction.zip
 Put the BaseConstruction folder into KSP\GameData\ContractPacks
 Run KSP
 Done
