@@ -12,7 +12,7 @@ Instalation:
 Download Contract Configurator  (Version after 1.3.2)---https://github.com/jrossignol/ContractConfigurator/releases
 Install it.
 
-Unzip the CPBaseConstruction.zip
+Unzip the BaseConstruction.zip
 Put the ContractPacks folder into KSP\GameData\
 Run KSP
 Done
