@@ -1,7 +1,7 @@
 # Contract-Pack-Base-Construction
 A Contract Configurator contract pack for base construction
 
-####THIS IS AN ALPHA RELEASE USE IT IN YOUR OWN RISK####
+####THIS IS AN BETA RELEASE USE IT IN YOUR OWN RISK####
 
 This Contract Pack supports MKS, KAS, USILS, IFILS and TACLS
 The licence is on the BaseConstruction folder
