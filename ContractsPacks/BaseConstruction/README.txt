@@ -15,7 +15,7 @@ Install it.
 Download Module Manger (Version min 2.6.5)----http://forum.kerbalspaceprogram.com/threads/55219
 Install it.
 Unzip the BaseConstruction0.0.3.zip
-Put the ContractPacks folder into *KSP*\GameData\
+Put the BaseConstruction folder into *KSP*\GameData\ContractPacks\
 Run KSP
 Done
 *KSP*: This is your game library all game folders should be there but this can have any name you want.
