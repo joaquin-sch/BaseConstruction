@@ -4,11 +4,9 @@ A Contract Configurator contract pack for base construction
 
 This Contract Pack supports MKS, KAS, USILS, IFILS and TACLS
 The licence is on the BaseConstruction folder
-Dev Forum Thread ----http://forum.kerbalspaceprogram.com/threads/124301
+Forum Thread ----http://forum.kerbalspaceprogram.com/threads/127138
 Instalation:
-
-***CKAN: Search for // Contract Pack: Base Construction //*** This isn't ready
-
+CKAN: Search for // Contract Pack: Base Construction
 Manual Install
 Download Contract Configurator  (Version min 1.5.0)----https://github.com/jrossignol/ContractConfigurator/releases
 Install it.
