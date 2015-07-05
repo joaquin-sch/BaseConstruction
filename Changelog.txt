@@ -1,7 +1,8 @@
 Contract Pack: Base Construction's Changelog
 v0.0.1 = Alpha n°1 =16-06-15 : Initial Alpha
 v0.0.2 = Beta n°1 =18-06-15 :New Requirements for MunBaseScience and MunBaseSelf-Sufficiency
-v0.0.3 = Beta n°2 =25-06-15 :New sistem for choosing the base body
-v0.1.0 = Beta n°3 =28-06-15 :Better aplication of the new sistem for letting the player choose where to buld the base. Now the manteinance mission affects all vessels listed as a Base and the previously created Bases on the base contruction contracts.
-v0.1.1 = Beta n°4 =29-06-15 :Fixed requierements and some parameters
-v0.1.2 = n°1 =03-07-15 :KSS compatability hotfix(severedsolo). Various requierements fixed and added. Release!
+v0.0.3 = Beta n°2 =25-06-15 :New system for choosing the base body
+v0.1.0 = Beta n°3 =28-06-15 :Better application of the new system for letting the player choose where to buld the base. Now the manteinance mission affects all vessels listed as a Base and the previously created Bases on the base contruction contracts.
+v0.1.1 = Beta n°4 =29-06-15 :Fixed requirements and some parameters
+v0.1.2 = n°1 =03-07-15 :KSS compatibility hotfix(severedsolo). Various requirements fixed and added. Release!
+v0.1.3 = n°2 =05-07-15 :Remote Tech compatibility fix.
