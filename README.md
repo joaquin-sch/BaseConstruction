@@ -12,7 +12,7 @@ Download Contract Configurator  (Version min 1.5.1)----https://github.com/jrossi
 Install it.
 Download Module Manger (Version min 2.6.5)----http://forum.kerbalspaceprogram.com/threads/55219
 Install it.
-Unzip the BaseConstruction0.1.4.zip
+Unzip the BaseConstruction0.2.0.zip
 Put the BaseConstruction folder into *KSP*\GameData\ContractPacks\
 Run KSP
 Done
