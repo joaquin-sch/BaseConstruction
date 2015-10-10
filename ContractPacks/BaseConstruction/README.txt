@@ -2,19 +2,17 @@
 A Contract Configurator contract pack for base construction
 
 
-This Contract Pack supports MKS, KAS, USILS, IFILS and TACLS
+This Contract Pack supports RT, AR, MKS, KAS, USILS, IFILS and TACLS
 The licence is on the BaseConstruction folder
 Forum Thread ----http://forum.kerbalspaceprogram.com/threads/127138
 Instalation:
-
-***CKAN: Search for // Contract Pack: Base Construction //*** This isn't ready
-
+CKAN: Search for // Contract Pack: Base Construction
 Manual Install
-Download Contract Configurator  (Version min 1.5.0)----https://github.com/jrossignol/ContractConfigurator/releases
+Download Contract Configurator  (Version min 1.5.2)----https://github.com/jrossignol/ContractConfigurator/releases
 Install it.
 Download Module Manger (Version min 2.6.5)----http://forum.kerbalspaceprogram.com/threads/55219
 Install it.
-Unzip the BaseConstruction0.1.1.zip
+Unzip the BaseConstruction0.2.1.zip
 Put the BaseConstruction folder into *KSP*\GameData\ContractPacks\
 Run KSP
 Done

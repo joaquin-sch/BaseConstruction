@@ -2,6 +2,7 @@
     "NAME"     : "Contract Pack: Base Construction",
     "URL"      : "https://github.com/CosmoBro/BaseConstruction/blob/master/ContractsPacks/BaseConstruction/BaseConstruction.version",
     "DOWNLOAD" : "https://github.com/CosmoBro/BaseConstruction/releases",
+	"CHANGE_LOG_URL" : "https://github.com/CosmoBro/BaseConstruction/blob/master/Changelog.txt",
     "GITHUB" :
     {
         "USERNAME" : "CosmoBro",
@@ -10,8 +11,8 @@
     "VERSION" :
     {
         "MAJOR" : 0,
-        "MINOR" : 1,
-        "PATCH" : 1,
+        "MINOR" : 2,
+        "PATCH" : 3,
         "BUILD" : 0
     },
     "KSP_VERSION" :
